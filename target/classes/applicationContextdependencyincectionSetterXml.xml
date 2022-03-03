@@ -12,15 +12,23 @@
     
     <!-- define the dependency -->
     <bean id="myFortuneService"
-    		class="dependencyincectionXml.HappyFortuneService">
+    		class="dependencyincectionSetterXml.HappyFortuneService">
     	</bean>
     
  	<bean id="myCoach"
- 		class="dependencyincectionXml.BaseballCoach">
+ 		class="dependencyincectionSetterXml.TrackCoach">
  		
  		<!-- set up constructor injection -->
  		<constructor-arg ref="myFortuneService" />
  	</bean>
+
+    <bean id="myCricketCoach"
+        class="dependencyincectionSetterXml.CricketCoach">
+        
+        <!-- set up setter injection -->
+        <property name="fortuneService" ref="myFortuneService" />
+
+    </bean>
     
 </beans>
 

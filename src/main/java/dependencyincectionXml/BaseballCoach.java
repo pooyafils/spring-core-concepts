@@ -1,4 +1,4 @@
-package dependencyinkectionXml;
+package dependencyincectionXml;
 
 public class BaseballCoach implements Coach {
 

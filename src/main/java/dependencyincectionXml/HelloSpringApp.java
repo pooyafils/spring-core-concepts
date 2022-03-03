@@ -1,4 +1,4 @@
-package dependencyinkectionXml;
+package dependencyincectionXml;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

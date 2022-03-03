@@ -1,4 +1,4 @@
-package dependencyinkectionXml;
+package dependencyincectionSetterXml;
 
 public class HappyFortuneService implements FortuneService {
 

@@ -12,11 +12,11 @@
     
     <!-- define the dependency -->
     <bean id="myFortuneService"
-    		class="dependencyinkectionXml.HappyFortuneService">
+    		class="dependencyincectionXml.HappyFortuneService">
     	</bean>
     
  	<bean id="myCoach"
- 		class="dependencyinkectionXml.TrackCoach">
+ 		class="dependencyincectionXml.BaseballCoach">
  		
  		<!-- set up constructor injection -->
  		<constructor-arg ref="myFortuneService" />
