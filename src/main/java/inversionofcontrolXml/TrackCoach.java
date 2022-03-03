@@ -1,4 +1,4 @@
-package inversionofcontrol;
+package inversionofcontrolXml;
 
 public class TrackCoach implements Coach {
 

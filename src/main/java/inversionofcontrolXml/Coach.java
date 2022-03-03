@@ -1,4 +1,4 @@
-package inversionofcontrol;
+package inversionofcontrolXml;
 
 public interface Coach {
 

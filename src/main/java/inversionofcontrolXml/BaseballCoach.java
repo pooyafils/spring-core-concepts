@@ -1,4 +1,4 @@
-package inversionofcontrol;
+package inversionofcontrolXml;
 
 public class BaseballCoach implements Coach {
 	
